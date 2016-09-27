@@ -35,16 +35,19 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\Common\BubbleSorter.cs" />
+    <Compile Include="Sorting\Common\CommonSorter.cs" />
+    <Compile Include="Sorting\Common\ICommonSorter.cs" />
+    <Compile Include="Sorting\Common\InsertionSorter.cs" />
+    <Compile Include="Sorting\Common\QuickSorter.cs" />
+    <Compile Include="Sorting\Common\SelectionSorter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Combinatorics\" />
     <Folder Include="Crypthography\" />
-    <Folder Include="Sorting\Common\" />
     <Folder Include="Sorting\Streamed\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
