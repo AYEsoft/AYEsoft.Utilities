@@ -12,7 +12,7 @@ namespace AYEsoft.Utilities.Tests.Sorting.Common
     [TestFixture]
     public class CommonSorterTests
     {
-        // Manual mock due to Moq having difficulties with protected generic methods.
+        // Manual mock
         public class SorterTestsHelper : CommonSorter
         {
             public object List { get; private set; }

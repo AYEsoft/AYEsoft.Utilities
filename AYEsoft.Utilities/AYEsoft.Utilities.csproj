@@ -37,6 +37,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Combinatorics\PermutationEnumerator.cs" />
+    <Compile Include="Combinatorics\Permutations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\Common\BubbleSorter.cs" />
     <Compile Include="Sorting\Common\CommonSorter.cs" />
@@ -46,7 +48,6 @@
     <Compile Include="Sorting\Common\SelectionSorter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Combinatorics\" />
     <Folder Include="Crypthography\" />
     <Folder Include="Sorting\Streamed\" />
   </ItemGroup>
